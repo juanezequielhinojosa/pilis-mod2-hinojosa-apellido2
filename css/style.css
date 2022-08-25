@@ -121,3 +121,60 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 30px 0 #540d6e;
   }
+  /***SECCION EVENTO***/
+
+#evento #seccion-video {
+    margin-left: 40px;
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 #540d6e;
+  }
+  
+  #evento #seccion-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  #evento #seccion-titulo {
+    width: 50%;
+    text-align: center;
+  }
+  
+  #evento #seccion-titulo h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 500;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  /***SECCION NOSOTROS***/
+#nosotros {
+    padding: 20px;
+  }
+  #seccion-nosotros-titulo {
+    width: 50%;
+  }
+  
+  #nosotros #seccion-nosotros-titulo h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 500;
+    /*padding: 10px;
+    margin-bottom: 10px;*/
+  }
+  #nosotros #seccion-nosotros-img {
+    margin-left: 40px;
+    width: 50%;
+    height: 85%;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 #540d6e;
+  }
+  #nosotros img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  
