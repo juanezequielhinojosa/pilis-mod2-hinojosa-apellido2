@@ -44,4 +44,80 @@ body {
   .large {
     padding-top: 20px;
   }
+  .flexible {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /***ESTILOS DE LA BARRA DE NAVEGACION**/
+  #header-principal nav .navegacion {
+    float: left;
+    text-transform: uppercase;
+  }
   
+  .navegacion ul li {
+    padding-top: 20px;
+    float: left;
+    list-style: none;
+  }
+  .navegacion ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navegacion ul li :hover {
+    background-color: #540d6e;
+    color: #ffd23f;
+    font-weight: bolder;
+    border-bottom: 3px solid white;
+    border-radius: 8px;
+  }
+  #header-principal nav .logo {
+    
+    float: right;
+    height: 100px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  #header-principal nav .contenedor .logo img {
+    background-color:#ffd23f;
+    width: 100px;
+    height: 94px;
+    border-radius: 100px;
+    box-shadow: 0 0 15px 0 #540d6e;
+  }
+  
+  /***ESTILO DE LA SECCION HOME***/
+  #home {
+    margin-top: 50px;
+  }
+  #home #seccion-texto {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 20px 20px 20px 40px;
+  }
+  
+  #seccion-texto h1 {
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 500;
+  }
+  
+  #home #seccion-img {
+    width: 50%;
+    float: right;
+  }
+  #home #seccion-img img {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 89%;
+    height: 0%;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 #540d6e;
+  }
