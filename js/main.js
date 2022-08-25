@@ -12,6 +12,43 @@
   })
   .catch((err) => console.log('no funciona'+err));
 }*/
+//OTRA FORMA QUE PODEMOS IMPLEMENTAR
+/* Async - Await */
+async function obtenerClima(direccion) {
+    try {
+      let response = await fetch(direccion);
+      let climaResponse = await response.json();
+      console.log(climaResponse);
+      //ESTO SE AGREGA AL HTML
+      const datosClima = document.getElementById("contenido");
+      const element = document.createElement("div");
+      element.innerHTML = `
+              <div class="div-clima">
+                  <div>
+                      <strong>Ciudad: </strong> ${climaResponse.name} 
+                      <strong>Temperatura°: </strong> ${climaResponse.main.temp} 
+                      <strong>humedad: </strong> ${climaResponse.main.humidity} 
+                      <strong>visibilidad: </strong> ${(climaResponse.visibility) / 1000} 
+                  </div>
+              </div>
+          `;
+      datosClima.appendChild(element);
+    } catch {
+      console.log("Algo paso, no se pudo resolver...");
+      //ESTO SE AGREGA AL HTML
+      const datosClima = document.getElementById("contenido");
+      const element = document.createElement("div");
+      element.innerHTML = `
+               <div class="div-clima">
+                   <div>
+                       <strong>la informacion no esta disponible por el momento </strong> 
+                   </div>
+               </div>
+           `;
+      datosClima.appendChild(element);
+    }
+  }
+  
 
 //SEGUNDO PASO DE FORMUALRIO
 function onClick(event) {
