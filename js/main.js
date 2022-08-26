@@ -25,10 +25,10 @@ async function obtenerClima(direccion) {
     element.innerHTML = `
             <div class="div-clima">
                 <div>
-                    <strong>Ciudad: </strong> ${climaResponse.name} 
-                    <strong>Temperatura°: </strong> ${climaResponse.main.temp} 
-                    <strong>humedad: </strong> ${climaResponse.main.humidity} 
-                    <strong>visibilidad: </strong> ${(climaResponse.visibility) / 1000} 
+                    <strong>Ciudad </strong> ${climaResponse.name} 
+                    <strong>Temperatura </strong> ${climaResponse.main.temp+' °C'} 
+                    <strong>humedad </strong> ${climaResponse.main.humidity+' %'} 
+                    <strong>visibilidad </strong> ${((climaResponse.visibility) / 1000)+' Km'} 
                 </div>
             </div>
         `;
@@ -41,7 +41,7 @@ async function obtenerClima(direccion) {
     element.innerHTML = `
              <div class="div-clima">
                  <div>
-                     <strong>la informacion no esta disponible por el momento </strong> 
+                     <strong>lo sentimos, esta información no está disponible por el momento </strong> 
                  </div>
              </div>
          `;
