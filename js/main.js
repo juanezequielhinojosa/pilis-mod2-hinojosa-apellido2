@@ -12,17 +12,53 @@
   })
   .catch((err) => console.log('no funciona'+err));
 }*/
-
+//OTRA FORMA QUE PODEMOS IMPLEMENTAR
+/* Async - Await */
+async function obtenerClima(direccion) {
+  try {
+    let response = await fetch(direccion);
+    let climaResponse = await response.json();
+    console.log(climaResponse);
+    //ESTO SE AGREGA AL HTML
+    const datosClima = document.getElementById("contenido");
+    const element = document.createElement("div");
+    element.innerHTML = `
+            <div class="div-clima">
+                <div>
+                    <strong>Ciudad: </strong> ${climaResponse.name} 
+                    <strong>Temperatura°: </strong> ${climaResponse.main.temp} 
+                    <strong>humedad: </strong> ${climaResponse.main.humidity} 
+                    <strong>visibilidad: </strong> ${(climaResponse.visibility) / 1000} 
+                </div>
+            </div>
+        `;
+    datosClima.appendChild(element);
+  } catch {
+    console.log("Algo paso, no se pudo resolver...");
+    //ESTO SE AGREGA AL HTML
+    const datosClima = document.getElementById("contenido");
+    const element = document.createElement("div");
+    element.innerHTML = `
+             <div class="div-clima">
+                 <div>
+                     <strong>la informacion no esta disponible por el momento </strong> 
+                 </div>
+             </div>
+         `;
+    datosClima.appendChild(element);
+  }
+}
 //SEGUNDO PASO DE FORMUALRIO
 function onClick(event) {
   event.preventDefault();
-  this.style.backgroundColor = "black";
+ // this.style.backgroundColor = "black";
   console.log("click...");
   console.log(event);
 
   const mensaje = {
     comercio_nombre: document.getElementById("nombre-comercio").value,
     titular_nombre: document.getElementById("nombre-titular").value,
+    email:document.getElementById("correo").value,
     telefono: document.getElementById("celular").value,
   };
   if (
