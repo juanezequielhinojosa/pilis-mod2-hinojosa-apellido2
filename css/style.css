@@ -14,288 +14,283 @@ body {
   scroll-behavior: smooth;
 }
 #header-principal {
-    height: 100vh;
-  }
-  
-  .contenedor {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 10px;
-    display: block;
-    overflow: hidden;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  .title-1 {
-    color: #ffd23f;
-    font-size: 30px;
-    font-weight: 400px;
-  }
-  .title-2 {
-    color: #540d6e;
-  }
-  .title-3 {
-    text-transform: lowercase;
-    font-weight: 300;
-  }
-  .large {
-    padding-top: 20px;
-  }
-  .flexible {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  /***ESTILOS DE LA BARRA DE NAVEGACION**/
-  #header-principal nav .navegacion {
-    float: left;
-    text-transform: uppercase;
-  }
-  
-  .navegacion ul li {
-    padding-top: 20px;
-    float: left;
-    list-style: none;
-  }
-  .navegacion ul li a {
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-    display: block;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .navegacion ul li :hover {
-    background-color: #540d6e;
-    color: #ffd23f;
-    font-weight: bolder;
-    border-bottom: 3px solid white;
-    border-radius: 8px;
-  }
-  #header-principal nav .logo {
-    
-    float: right;
-    height: 100px;
-    padding-top: 10px;
-    padding-right: 10px;
-  }
-  #header-principal nav .contenedor .logo img {
-    background-color:#ffd23f;
-    width: 100px;
-    height: 94px;
-    border-radius: 100px;
-    box-shadow: 0 0 15px 0 #540d6e;
-  }
-  
-  /***ESTILO DE LA SECCION HOME***/
-  #home {
-    margin-top: 50px;
-  }
-  #home #seccion-texto {
-    width: 50%;
-    float: left;
-    text-align: center;
-    padding: 20px 20px 20px 40px;
-  }
-  
-  #seccion-texto h1 {
-    text-transform: uppercase;
-    font-size: 46px;
-    font-weight: 500;
-  }
-  
-  #home #seccion-img {
-    width: 50%;
-    float: right;
-  }
-  #home #seccion-img img {
-    margin-top: 20px;
-    margin-left: 40px;
-    width: 89%;
-    height: 0%;
-    border-radius: 20px;
-    box-shadow: 0 0 30px 0 #540d6e;
-  }
-  /***SECCION EVENTO***/
+  height: 100vh;
+}
+
+.contenedor {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  display: block;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+.title-1 {
+  color: #ffd23f;
+  font-size: 30px;
+  font-weight: 400px;
+}
+.title-2 {
+  color: #540d6e;
+}
+.title-3 {
+  text-transform: lowercase;
+  font-weight: 300;
+}
+.large {
+  padding-top: 20px;
+}
+.flexible {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/***ESTILOS DE LA BARRA DE NAVEGACION**/
+#header-principal nav .navegacion {
+  float: left;
+  text-transform: uppercase;
+}
+
+.navegacion ul li {
+  padding-top: 20px;
+  float: left;
+  list-style: none;
+}
+.navegacion ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+.navegacion ul li :hover {
+  background-color: #540d6e;
+  color: #ffd23f;
+  font-weight: bolder;
+  border-bottom: 3px solid white;
+  border-radius: 8px;
+}
+#header-principal nav .logo {
+  float: right;
+  height: 100px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#header-principal nav .contenedor .logo img {
+  background-color: #ffd23f;
+  width: 100px;
+  height: 94px;
+  border-radius: 100px;
+  box-shadow: 0 0 15px 0 #540d6e;
+}
+
+/***ESTILO DE LA SECCION HOME***/
+#home {
+  margin-top: 50px;
+}
+#home #seccion-texto {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding: 20px 20px 20px 40px;
+}
+
+#seccion-texto h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+#home #seccion-img {
+  width: 50%;
+  float: right;
+}
+#home #seccion-img img {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 89%;
+  height: 0%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #540d6e;
+}
+/***SECCION EVENTO***/
 
 #evento #seccion-video {
-    margin-left: 40px;
-    width: 50%;
-    height: 70%;
-    border-radius: 20px;
-    box-shadow: 0 0 30px 0 #540d6e;
-  }
-  
-  #evento #seccion-video iframe {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-  }
-  
-  #evento #seccion-titulo {
-    width: 50%;
-    text-align: center;
-  }
-  
-  #evento #seccion-titulo h1 {
-    text-transform: uppercase;
-    font-size: 46px;
-    font-weight: 500;
-    padding: 20px;
-    margin-bottom: 10px;
-  }
-  /***SECCION NOSOTROS***/
+  margin-left: 40px;
+  width: 50%;
+  height: 70%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #540d6e;
+}
+
+#evento #seccion-video iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+#evento #seccion-titulo {
+  width: 50%;
+  text-align: center;
+}
+
+#evento #seccion-titulo h1 {
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 500;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+/***SECCION NOSOTROS***/
 #nosotros {
-    padding: 20px;
-  }
-  #seccion-nosotros-titulo {
-    width: 50%;
-  }
-  
-  #nosotros #seccion-nosotros-titulo h1 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 46px;
-    font-weight: 500;
-    /*padding: 10px;
+  padding: 20px;
+}
+#seccion-nosotros-titulo {
+  width: 50%;
+}
+
+#nosotros #seccion-nosotros-titulo h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 46px;
+  font-weight: 500;
+  /*padding: 10px;
     margin-bottom: 10px;*/
-  }
-  #nosotros #seccion-nosotros-img {
-    margin-left: 40px;
-    width: 50%;
-    height: 85%;
-    border-radius: 20px;
-    box-shadow: 0 0 30px 0 #540d6e;
-  }
-  #nosotros img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-  }
-  
-  /***SECCION CONTACTO***/
+}
+#nosotros #seccion-nosotros-img {
+  margin-left: 40px;
+  width: 50%;
+  height: 85%;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 0 #540d6e;
+}
+#nosotros img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+/***SECCION CONTACTO***/
 .contacto-form {
-    width: 50%;
-  }
-  .contacto-form fieldset {
-    margin: 0px 40px;
-    padding: 30px;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 0 30px 0 #540d6e;
-  }
-  
-  .form-grup {
-    margin-bottom: 1rem;
-  }
-  .form-control {
-    width: 100%;
-    padding: 0.375rem 0.7rem;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    line-height: 1.7;
-  }
-  
-  .contacto-titulo {
-    width: 50%;
-    padding: 20px;
-    text-align: center;
-  }
-  .contacto-titulo h1 {
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 500;
-    color: #ffd23f;
-  }
-  
-  .btn {
-    width: 100%;
-    padding: 14px 23px;
-    cursor: pointer;
-    font-weight: bold;
-    letter-spacing: 1px;
-    border-radius: 4px;
-    margin-top: 10px;
-    border: none;
-  }
-  .btn-light {
-    background-color: #540d6e;
-    color: white;
-    border: 1px solid #ffd23f;
-  }
-  .btn-light:hover {
-    background-color: #ffd23f;
-    color: #540d6e;
-    border: 1px solid #0ead69;
-  }
-  
-  /***SECCION FOOTER***/
-  .socials {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-  }
-  
-  .socials-icon {
-    font-size: 30px;
-    text-decoration: none;
-    margin-right: 15px;
-    color: var(--accent-color);
-  }
-  
-  .footer-section-container {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .footer-link {
-    text-decoration: none;
-    color: var(--accent-color);
-    font-size: 18px;
-  }
-  /***SECCION DEL CLIMA***/
-  #clima{
-    height: 100vh;
-    text-align: center;
-    
-  }
-  
-  #clima #contenido{
-    margin: 30px auto;
-    width: 400px;
-    height: 400px;
-    background-color: #540d6e;
-    border-radius: 15px;
-    box-shadow: 0 0 30px 0 white
-    ;
-  }
-  #clima h1 {
-    color: white;
-    font-weight: 400;
-    margin-bottom: 50px;
-    
-   }
-  /***PARTE DINAMICA***/
-  .div-clima {
-   padding: 40px;
-   color: #0ead69;
-  }
-  .div-clima strong {
-    color: #ffd23f;
-    text-transform: uppercase;
-    font-weight: 300;
-   }
-  .div-clima div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  /*background-color: #0ead69;********/
-  }
+  width: 50%;
+}
+.contacto-form fieldset {
+  margin: 0px 40px;
+  padding: 30px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 30px 0 #540d6e;
+}
+
+.form-grup {
+  margin-bottom: 1rem;
+}
+.form-control {
+  width: 100%;
+  padding: 0.375rem 0.7rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.contacto-titulo {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+.contacto-titulo h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+  color: #ffd23f;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px 23px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin-top: 10px;
+  border: none;
+}
+.btn-light {
+  background-color: #540d6e;
+  color: white;
+  border: 1px solid #ffd23f;
+}
+.btn-light:hover {
+  background-color: #ffd23f;
+  color: #540d6e;
+  border: 1px solid #0ead69;
+}
+
+/***SECCION FOOTER***/
+.socials {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.socials-icon {
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 15px;
+  color: var(--accent-color);
+}
+
+.footer-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: 18px;
+}
+/***SECCION DEL CLIMA***/
+#clima {
+  height: 100vh;
+  text-align: center;
+}
+
+#clima #contenido {
+  margin: 30px auto;
+  width: 400px;
+  height: 400px;
+  background-color: #540d6e;
+  border-radius: 15px;
+  box-shadow: 0 0 30px 0 white;
+}
+#clima h1 {
+  color: white;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+/***PARTE DINAMICA DESECCION CLIMA***/
+.div-clima {
+  padding: 40px;
+  color: #0ead69;
+}
+.div-clima strong {
+  color: #ffd23f;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.div-clima div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

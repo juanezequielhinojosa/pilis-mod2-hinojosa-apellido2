@@ -1,18 +1,7 @@
+//TRABAJO FINAL DE MODULO-2
+//ALUMNOS : FABIAN TOLABA - JUAN HINOJOSA
+
 //APLICACION DEL CLIMA
-/*function obtenerClima(direccion){
-  console.log('clima');
- 
-  fetch(direccion, {
- 
-   })
-  .then((response) => response.json())
-  .then((json) => { 
-      console.log(json);
-     
-  })
-  .catch((err) => console.log('no funciona'+err));
-}*/
-//OTRA FORMA QUE PODEMOS IMPLEMENTAR
 /* Async - Await */
 async function obtenerClima(direccion) {
   try {
@@ -48,7 +37,22 @@ async function obtenerClima(direccion) {
     datosClima.appendChild(element);
   }
 }
-//SEGUNDO PASO DE FORMUALRIO
+//APLICACION DEL CLIMA , ESTE METODO NO FUE IMPLEMENTADO PERO FUNCIONA PERFECTAMENTE
+/*function obtenerClima(direccion){
+  console.log('clima');
+ 
+  fetch(direccion, {
+ 
+   })
+  .then((response) => response.json())
+  .then((json) => { 
+      console.log(json);
+     
+  })
+  .catch((err) => console.log('no funciona'+err));
+}*/
+
+//SEGUNDO PASO DE FORMUALRIO, ESTE ES EL METODO QUE IMPLEMENTA FORMULARIO
 function onClick(event) {
   event.preventDefault();
  // this.style.backgroundColor = "black";
@@ -64,6 +68,7 @@ function onClick(event) {
   if (
     mensaje.comercio_nombre === "" ||
     mensaje.titular_nombre === "" ||
+    mensaje.email === "" ||
     mensaje.telefono === ""
   ) {
     Swal.fire("No Enviado", "Completa todos los campos!!!", "warning");
@@ -85,6 +90,7 @@ function onClick(event) {
   }
 }
 
+//ESTA  FUNCION RESETEA LOS CAMPOS DEL FORMULARIO
 function cleanForm() {
   let formulario = document.getElementById("formulario");
   formulario.reset();
