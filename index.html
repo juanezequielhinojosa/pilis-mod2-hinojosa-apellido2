@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Estilo-->
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
     <!--Favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>Feria de las Plantas</title>
   </head>
   <body>
@@ -79,119 +82,137 @@
     </section>
     <!--SECCION NOSOTROS-->
     <section id="nosotros" class="flexible">
-        <section id="seccion-nosotros-titulo" class="contenedor">
-          <article>
-            <h1>
-              <span class="title-1">conoce quienes somos</span> <br />
-              <span class="title-2">"ministerio de desarrollo y produccion"</span> <br />
-              <br />
-            </h1>
-            <p class="large">
-              “Jujuy, la producción, el turismo y las
-              inversiones. Nos llevará a transitar un camino hacia el futuro de la
-              mano de los que crean y emprenden, a la luz de la energía jujeña”,
-              las artesanías, la producción y todo lo que le da vida a Jujuy”. “De
-              esta manera, avanzaremos en la construcción de prestigio con
-              contenido y mirando al futuro” para el bien de todos los jujeños. La Asociación de Productores de
-              Plantas Ornamentales de Jujuy está compuesta por 50
-              familias jujeñas que trabajan mancomunadamente para el desarrollo de
-              la Industria Florícola. 12 años pasaron desde aquel día en el que un
-              puñado de familias cultivadoras sembramos este sueño colectivo. 
-            </p>
-          </article>
+      <section id="seccion-nosotros-titulo" class="contenedor">
+        <article>
+          <h1>
+            <span class="title-1">conoce quienes somos</span> <br />
+            <span class="title-2">"ministerio de desarrollo y produccion"</span>
+            <br />
+            <br />
+          </h1>
+          <p class="large">
+            “Jujuy, la producción, el turismo y las inversiones. Nos llevará a
+            transitar un camino hacia el futuro de la mano de los que crean y
+            emprenden, a la luz de la energía jujeña”, las artesanías, la
+            producción y todo lo que le da vida a Jujuy”. “De esta manera,
+            avanzaremos en la construcción de prestigio con contenido y mirando
+            al futuro” para el bien de todos los jujeños. La Asociación de
+            Productores de Plantas Ornamentales de Jujuy está compuesta por 50
+            familias jujeñas que trabajan mancomunadamente para el desarrollo de
+            la Industria Florícola. 12 años pasaron desde aquel día en el que un
+            puñado de familias cultivadoras sembramos este sueño colectivo.
+          </p>
+        </article>
+      </section>
+
+      <section id="seccion-nosotros-img">
+        <img src="img/Feria-Plantas.jpg" alt="" />
+      </section>
+    </section>
+    <!--SECCION DE CONTACTO-->
+    <section id="contacto">
+      <section class="flexible">
+        <section class="contacto-form">
+          <fieldset>
+            <form action="" id="formulario">
+              <div class="form-grup">
+                <label for="nombre-comercio">Nombre del comercio</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="nombre-comercio"
+                  placeholder="ejemplo floreria luci"
+                />
+              </div>
+              <div class="form-grup">
+                <label for="nombre-titular">Titular del Comercio</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  name="nombre-titular"
+                  id="nombre-titular"
+                  placeholder="ejemplo florencia perez"
+                />
+              </div>
+              <div class="form-grup">
+                <label for="correo">Correo electronico</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  name="correo"
+                  id="correo"
+                  placeholder="ejemplo florenciaperez@gmail.com"
+                />
+              </div>
+              <div class="form-grup">
+                <label for="celular">Celular</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  id="celular"
+                  placeholder="numero de whatsapp"
+                />
+              </div>
+              <button class="btn btn-light" id="enviar">Enviar</button>
+            </form>
+          </fieldset>
         </section>
-         
-        <section id="seccion-nosotros-img">
-          <img src="img/Feria-Plantas.jpg" alt="" />
+
+        <section class="contacto-titulo">
+          <h1>
+            <span class="title-1">registrate ahora!!! </span> <br />
+            <span class="title-2">"feria de plantas"</span> <br />
+            completa el formulario y reserva tu lugar<br />
+          </h1>
+          <p class="large">
+            Revisaremos tu solicitud y te enviaremos un correo electrónico para
+            confirmar tu participación en el evento para mas información unite
+            al grupo de whatsapp
+          </p>
+          <a
+            class="socials-icon"
+            href="https://web.whatsapp.com/"
+            target="_blank"
+            ><i class="bi bi-whatsapp"></i
+          ></a>
         </section>
       </section>
-        <!--SECCION DE CONTACTO-->
-      <section id="contacto">
-        <section class="flexible">
-          <section class="contacto-form">
-            <fieldset>
-              <form action="" id="formulario">
-                <div class="form-grup">
-                  <label for="nombre-comercio">Nombre del comercio</label>
-                  <input
-                    class="form-control"
-                    type="text"
-                    id="nombre-comercio"
-                    placeholder="ejemplo floreria luci"
-                  />
-                </div>
-                <div class="form-grup">
-                  <label for="nombre-titular">Titular del Comercio</label>
-                  <input
-                    class="form-control"
-                    type="text"
-                    name="nombre-titular"
-                    id="nombre-titular"
-                    placeholder="ejemplo florencia perez"
-                  />
-                </div>
-                <div class="form-grup">
-                  <label for="correo">Correo electronico</label>
-                  <input
-                    class="form-control"
-                    type="email"
-                    name="correo"
-                    id="correo"
-                    placeholder="ejemplo florenciaperez@gmail.com"
-                  />
-                </div>
-                <div class="form-grup">
-                  <label for="celular">Celular</label>
-                  <input
-                    class="form-control"
-                    type="text"
-                    id="celular"
-                    placeholder="numero de whatsapp"
-                  />
-                </div>
-                <button class="btn btn-light" id="enviar">Enviar</button>
-              </form>
-            </fieldset>
-          </section>
-         
-          <section class="contacto-titulo">
-            <h1>
-              <span class="title-1">registrate ahora!!! </span> <br />
-              <span class="title-2">"feria de plantas"</span> <br />
-              completa el formulario y reserva tu lugar<br />
-            </h1>
-            <p class="large">
-              Revisaremos tu solicitud y te enviaremos un correo electrónico
-              para confirmar tu participación en el evento para mas información
-              unite al grupo de whatsapp 
-               
-            </p>
-            <a class="socials-icon" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i>
-          </section>
-        </section>
-      </section>
-      <section id="clima" class="contendor">
-        <div>
-            <h1>Informacion del clima</h1>
-        </div>
-        <div id="contenido">
-            <h3 id="locacion"></h3>
-            <h3 id="descripcion"></h3>
-            <h3 id="string"></h3>
-        </div>
+    </section>
+    <section id="clima" class="contendor">
+      <div>
+        <h1>Informacion del clima</h1>
+      </div>
+      <div id="contenido">
+        <h3 id="locacion"></h3>
+        <h3 id="descripcion"></h3>
+        <h3 id="string"></h3>
+      </div>
     </section>
     <footer>
-        <div class="footer-section-container">
-          <ul class="socials">
-            <li><a class="socials-icon" href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-            </div>
-              <div class="footer-section-container">
-                <p>
-                  &copy; 2022 - <a class="footer-link" href="">Ministerio de desarrollo y produccion</a>
-                </p>
-              </div>
-              
-          </footer>
-          <script src="js/main.js"></script>
+      <div class="footer-section-container">
+        <ul class="socials">
+          <li>
+            <a
+              class="socials-icon"
+              href=""
+              target="_blank"
+              class="bi bi-whatsapp"
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-section-container">
+        <p>
+          <a
+            class="socials-icon"
+            href="https://web.whatsapp.com/"
+            target="_blank"
+          >
+            Ministerio de desarrollo y produccion <i class="bi bi-whatsapp"></i>
+          </a>
+        </p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
