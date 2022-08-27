@@ -281,12 +281,11 @@ a {
 }
 /***PARTE DINAMICA DESECCION CLIMA***/
 .div-clima {
-   font-size: 30px;
+  font-size: 30px;
   padding: 40px;
   color: #0ead69;
 }
 .div-clima strong {
- 
   color: #ffd23f;
   text-transform: uppercase;
   font-weight: 300;
