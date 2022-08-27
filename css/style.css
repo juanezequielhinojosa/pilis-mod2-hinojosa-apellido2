@@ -233,32 +233,6 @@ a {
   color: #540d6e;
   border: 1px solid #0ead69;
 }
-
-/***SECCION FOOTER***/
-.socials {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-}
-
-.socials-icon {
-  font-size: 30px;
-  text-decoration: none;
-  margin-right: 15px;
-  color: var(--accent-color);
-}
-
-.footer-section-container {
-  display: flex;
-  justify-content: center;
-}
-
-.footer-link {
-  text-decoration: none;
-  color: var(--accent-color);
-  font-size: 18px;
-}
 /***SECCION DEL CLIMA***/
 #clima {
   height: 100vh;
@@ -295,4 +269,35 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+/***SECCION FOOTER***/
+.socials {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.socials-icon {
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 15px;
+  color: var(--accent-color);
+}
+footer {
+  height: 80px;
+  background-color: #540d6e;
+}
+footer h3 {
+  font-size: 25px;
+}
+.footer-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: 18px;
 }
